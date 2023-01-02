@@ -7,8 +7,6 @@
 - Solution URL: [Front End Mentor](https://your-solution-url.com)
 - [Live website](https://your-live-site-url.com)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup

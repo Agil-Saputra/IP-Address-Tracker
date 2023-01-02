@@ -4,8 +4,8 @@
 
 ### Links
 
-- Solution URL: [Front End Mentor](https://your-solution-url.com)
-- [Live website](https://your-live-site-url.com)
+- Solution URL: [Front End Mentor](https://www.frontendmentor.io/solutions/ip-address-tracker-mmm9kPWf03)
+- [Live website](https://ipaddresstracker.pages.dev/)
 
 ### Built with
 

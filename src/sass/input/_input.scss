@@ -1,0 +1,38 @@
+.title {
+    margin: 3rem 0;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .input-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .error{
+      color: rgb(255, 0, 0);
+  }
+  
+  #input {
+    background-color: #fff;
+    border: none;
+    width: 40%;
+    font-size: 18px;
+    outline: none;
+    padding: 21px 25px;
+    border-top-left-radius: 15px ;
+    border-bottom-left-radius: 15px ;
+  }
+  #btn {
+    border: none;
+    padding: 23px;
+    border-top-right-radius: 15px ;
+    border-bottom-right-radius: 15px ;
+    background-color: $Very-Dark-Gray;
+  }
+  
+  #btn:hover{
+      background-color: rgb(62, 61, 61);
+  }

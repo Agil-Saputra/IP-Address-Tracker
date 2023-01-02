@@ -1,0 +1,36 @@
+.result {
+    display: flex;
+    background-color: aliceblue;
+    width: 80%;
+    margin-top:2rem;
+    padding: 2rem 2.475rem;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 0rem 0.1rem 0.1rem 0 rgba(51, 51, 51, 0.267);
+  }
+  
+  .list {
+    padding: 0 2rem;
+    position: relative;
+    line-height: 2rem;
+    p {
+      font-weight: 500;
+      color: $Dark-Gray;
+    }
+    h1 {
+      font-size: 1.5rem;
+      color: $Very-Dark-Gray;
+    }
+  }
+  
+  .list::after {
+    content: "";
+    height: 75%; //You can change this if you want smaller/bigger borders
+    width: 1px;
+  
+    position: absolute;
+    left: 0;
+    top: 15%; // If you want to set a smaller height and center it, change this value
+  
+    background-color: $Dark-Gray; // The color of your border
+  }

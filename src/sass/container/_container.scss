@@ -1,0 +1,14 @@
+.service {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    width: 100%;
+  }
+  
+  .top {
+    background-image: url("../images/pattern-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 17.4375rem;
+  }

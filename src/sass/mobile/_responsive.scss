@@ -1,0 +1,20 @@
+@media (max-width: 820px) {
+    .title{
+        margin: 1rem 0;
+        font-size: 1.5rem;
+    }
+  .result {
+    padding: 1rem;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+ 
+  .list::after {
+    display: none;
+  }
+  #input{
+    width: 60%;
+  }
+}

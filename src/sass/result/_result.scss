@@ -1,11 +1,12 @@
 .result {
     display: flex;
-    background-color: aliceblue;
-    width: 80%;
-    margin-top:2rem;
+    background-color: #fff;
+    width: 70%;
+    margin-top:3rem;
     padding: 2rem 2.475rem;
     justify-content: space-between;
     border-radius: 15px;
+    gap: 0.5rem;
     box-shadow: 0rem 0.1rem 0.1rem 0 rgba(51, 51, 51, 0.267);
   }
   
@@ -29,8 +30,12 @@
     width: 1px;
   
     position: absolute;
-    left: 0;
+    right: 0;
     top: 15%; // If you want to set a smaller height and center it, change this value
   
     background-color: $Dark-Gray; // The color of your border
+  }
+
+  .list:nth-child(4)::after{
+    height: 0;
   }

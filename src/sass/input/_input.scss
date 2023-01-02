@@ -1,5 +1,6 @@
 .title {
-    margin: 3rem 0;
+    margin: 2rem 0;
+    font-weight: 400;
     font-size: 2rem;
     color: #fff;
   }
@@ -18,16 +19,16 @@
   #input {
     background-color: #fff;
     border: none;
-    width: 40%;
+    width: 30%;
     font-size: 18px;
     outline: none;
-    padding: 21px 25px;
+    padding: 18px 25px;
     border-top-left-radius: 15px ;
     border-bottom-left-radius: 15px ;
   }
   #btn {
     border: none;
-    padding: 23px;
+    padding: 20px;
     border-top-right-radius: 15px ;
     border-bottom-right-radius: 15px ;
     background-color: $Very-Dark-Gray;

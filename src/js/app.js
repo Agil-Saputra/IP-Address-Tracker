@@ -26,7 +26,6 @@ const greenIcon = L.icon({
 const consol = async() => {
 const data = await fetch(`https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_UE3WYD6BkzsN40ASKVyMJaccoUtZ6&ipAddress=${input.value}&domain=${input.value}`)
 const res = await data.json()
-console.log(res);
 
 ip.innerHTML = res.ip
 loc.innerHTML = `${res.location.city} ${res.location.country}`

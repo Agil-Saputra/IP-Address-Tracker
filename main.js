@@ -8,7 +8,7 @@ document.getElementsByClassName( 'leaflet-control-zoom' )[0].style.display = 'no
 const input = document.querySelector('#input');
 const ip = document.querySelector('#ip');
 const loc = document.querySelector('#loc');
-const timezone = document.querySelector('#timezone');
+const zone = document.querySelector('#timezone');
 const isp = document.querySelector('#isp');
 
 const inputBtn = document.querySelector('.input-btn')
@@ -27,14 +27,16 @@ const consol = async() => {
 const data = await fetch(`https://geo.ipify.org/api/v2/country,city,vpn?apiKey=at_UE3WYD6BkzsN40ASKVyMJaccoUtZ6&ipAddress=${input.value}&domain=${input.value}`)
 const res = await data.json()
 
+const {city, country, timezone, lat, lng,} = res.location
+
 ip.innerHTML = res.ip
-loc.innerHTML = `${res.location.city} ${res.location.country}`
-timezone.innerHTML = `UTC ${res.location.timezone}`
+loc.innerHTML = `${city} ${country}`
+zone.innerHTML = `UTC ${timezone}`
 isp.innerHTML = res.isp
 
-const coordinate = [res.location.lat, res.location.lng]
+const coordinate = [lat, lng]
 map.setView(coordinate, 13);
-var marker = L.marker(coordinate, {icon: greenIcon}).addTo(map);
+const marker = L.marker(coordinate, {icon: greenIcon}).addTo(map);
 
 }
 consol()
